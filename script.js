@@ -84,3 +84,129 @@ let student = [ "name:fadipe", "class:noclass" ,"age : 10 " ]
 
 console.log ( student)
 
+
+// data type
+
+//1. string
+
+let myName = "fadipe quadri abiodun"
+
+console.log (myName)
+
+
+// 2. number
+let num = 10 
+console.log (num)
+
+// 3. boolean
+// let go = true
+let go = false
+console.log (go)
+
+// 4. null
+const surname = null
+console.log (surname)
+
+// 5. undefined
+let sur 
+console.log (sur)
+
+let friend = " bayo"
+friend = undefined
+
+// .6 BigInt
+let largeNumber = 1234678900987654321n
+
+console.log (largeNumber)
+
+
+// OBJECT {key value format}
+let name = "goat"
+
+let animal = { name: name  , 
+     leg : 4,
+     food :" grass"
+}
+
+console.log(animal)
+
+// Array
+const color = [
+     "brown",
+     "yellow",
+     "brown",
+     "green",
+     "purple"
+]
+console.log (color)
+
+
+// // Date
+// let date = "12-23-22"
+
+// console.log (date)
+
+// Checking Data Types
+ let food = "yam"
+console.log (typeof food)
+
+let digit = 100
+
+console.log (typeof digit)
+
+let present = true
+
+console.log(typeof present)
+
+// OPERATORS
+// 1. ARithmetic
+let a = 20
+let b = 10
+
+console.log ( a + b)
+console.log ( a - b)
+console.log ( a * b)
+console.log ( a % b)
+console.log ( a / b)
+
+console.log ( a++)
+console.log ( a--)
+
+console.log (b++)
+console.log (b--)
+
+
+// 2.comparism operator
+
+let c = 20 
+let d = 10
+
+// equals to
+console.log (c==d)
+
+// not equal
+console.log (c!=d)
+
+// strictly equal
+console.log (c===d)
+
+// strict inequality
+console.log (c!==d)
+
+// greater than or equals to
+console.log (c >= d)
+
+// less than or equals to
+console.log (c <= d)
+
+
+// greater than
+console.log (c > d)
+
+// less than
+console.log (c < d)
+
+
+
+
+
