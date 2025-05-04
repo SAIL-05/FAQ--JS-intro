@@ -207,6 +207,36 @@ console.log (c > d)
 console.log (c < d)
 
 
+// logical operator
+
+// let e = false
+// let f =  true
+// let g = true
+// let h = false
+
+// console.log ()
+
+
+
+//Ayo's Admission Details
+const fee = true;
+const uniform = false;
+const textbooks = false;
+const idCard = false;
+
+const checkOR = fee || !textbooks || uniform || idCard;
+const checkAND = fee && textbooks && uniform && idCard;
+const checkAyo = fee && textbooks;
+const checkAyoAgain = (fee && idCard) || (fee && uniform);
+
+
+
+console.log (checkOR)
+console.log (checkAND)
+console.log(checkAyoAgain);
+console.log("from idcard", !idCard);
+
+
 
 
 
