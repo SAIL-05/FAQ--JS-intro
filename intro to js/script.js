@@ -325,7 +325,7 @@ else {
 let number =  prompt("input a number")
 if (number %  2 === 0) {
      alert ( "even number")
-}
+}11
 else {
      alert("odd number ") 
      }
