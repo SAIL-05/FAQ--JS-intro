@@ -93,14 +93,62 @@
 
 // 3.LOGICAL OPERATOR
 
-// 1. logical AND (&&) and logical OR (||)
+// 1. logical AND (&&) and  2. logical OR (||)
 
-let a = 20
-let b = 10
+// let a = 20
+// let b = 10
 
-console.log ( a >19  &&   b >9)  //&& true
+// console.log ( a >19  &&   b >9)  //&& true
 
-console.log ( a >25  ||   b >11)   //|| false
+// console.log ( a >25  ||   b >11)   //|| false 
+
+
+
+// 3.logical NOT
+//  opposite of the result.
+
+
+// Logical Operators Precedence
+
+//Ayo's Admission Details
+// const fee = true;
+// const uniform = false;
+// const textbooks = false;
+// const idCard = false;
+
+// const checkOR = fee || !textbooks || uniform || idCard;
+// const checkAND = fee && textbooks && uniform && idCard;
+// const checkAyo = fee && textbooks;
+// const checkAyoAgain = (fee && idCard) || (fee && uniform);
+
+
+
+// console.log (checkOR)  //true
+// console.log (checkAND)   //false
+// console.log(checkAyoAgain);   //false
+// console.log ( checkAyo)  //false
+// // console.log("from idcard", !idCard)
+
+
+// Conditional operators or Ternary
+//  syntax
+// var a = 10 ? "yes" : "no"
+
+// console.log (a)
+
+// let x = 10
+// let y = 30
+// let z = x > y ? "yes" : "no"
+
+// console.log (z)
+
+let ayoAge = 18
+let passAge = 18
+let ayoagain = ayoAge >= passAge ? "YES" : "NO"
+
+console.log(ayoagain)
+
+
 
 
 
