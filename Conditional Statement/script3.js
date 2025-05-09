@@ -187,17 +187,80 @@
 
 // else if else
 
-let a = parseInt(prompt ( "enter a number"))
-if ( a > 0 ) {
-    console.log ( `${a} is a positive number`)
+// let a = parseInt(prompt ( "enter a number"))
+// if ( a > 0 ) {
+//     console.log ( `${a} is a positive number`)}
+// else if ( a === 0) {
+//     console.log ( "invalid number")}
+// else if ( isNaN(a)) { 
+//     console.log ("not a Number")}
+// else { console.log (`${a} is a negative number`)}
+
+
+// let a = parseInt(prompt ( "enter a number"))
+// if ( a % 2 === 0) {
+//     console.log ( `${a} is an even mumber`)}
+// else if ( isNaN(a)) { 
+//     console.log ("not a Number")}
+
+// else { console.log (`${a} is an odd number`)}
+
+
+
+// let a = parseInt(prompt ( "enter first number"))
+// let b = parseInt(prompt ( "enter second number"))
+
+// if ( a > b) {
+//     console.log ( `${a}  is greater than ${b}`)}
+// else if ( isNaN(a)) { 
+//     console.log ("not a Number")}
+// else { console.log (`${b}  is greater than ${a}`)}
+
+// et grade = parseInt(prompt ( "enter your grade"))
+// if ( grade >=0 &&  grade <=39 ) {
+//     alert ( "GRADE - F")
+// }
+// else if( grade >=40 &&  grade <=44 ) {
+//     alert (" GRADE - E")
+// }
+// else if( grade >=45 &&  grade <=49 ) {
+//     alert ( "GRADE - D")
+// }
+// else if( grade >=50 &&  grade <=59 ) {
+//     alert ( "GRADE - C")
+// }
+// else if( grade >=60 &&  grade <=69 ) {
+//    alert (" GRADE - B")
+// }
+// else if( grade >=70 &&  grade <=100 ) {
+//     alert ( "GRADE - A")
+// }
+// else if (isNaN(grade)) {
+//     alert ( "please input a number between 0 to 100")
+// }
+// else {
+//     alert ( "invalid score")
+// }
+
+
+
+let age = parseInt (prompt( "Enter your age to get your ticket price"))
+
+if ( age <= 12 ) {alert ( `${age} years old ticket fee is $5`)}
+else if( age <= 18 ) {alert ( `${age} years old ticket fee is $10`)}
+else if( age <= 60 ) {alert ( `${age} years old ticket fee is $20`)}
+else if (isNaN(age)) { alert ("Not a number")}
+
+else {
+    alert (`${age} years old ticket fee is $15`)
 }
-else if ( a === 0) {
-    console.log ( "invalid number")
-}
-else if ( isNaN(a)) { 
-    console.log ("not a Number") 
-}
-else { console.log (`${a} is a negative number`)}
+
+
+
+
+
+
+
 
 
 
