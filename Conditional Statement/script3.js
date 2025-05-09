@@ -115,8 +115,116 @@
 // let score = prompt( "enter your score")
 // console.log ( `${score} is your score`)
 
-const name = prompt ("whats your name?")
-console.log ( `WELCOME ${name}`)
+// const name = prompt ("whats your name?")
+// console.log ( `WELCOME BACK ${name}`)
+
+
+
+// const a = 50;
+// console.log(a);
+// console.log(typeof a);
+// console.log(a.toString());   //conversion of number to string
+
+
+// parseint and parse float
+//parse int - convert strings to number {ignores decimal}
+//parse float - convert strings to number {keeps decimal}
+
+
+// let a = parseInt (prompt( "enter first value"))
+// let b = parseInt (prompt( "enter first value"))
+// let c = a + b
+
+// console.log (c)
+// alert (c)
+
+
+// let a = 39
+// let b = parseInt(a)
+// console.log( typeof a)
+// console.log ( typeof b)
+
+
+// let two = "34";
+// let test = parseInt(two);
+
+// console.log(two);
+// console.log(typeof two);
+
+// console.log(test);
+// console.log(typeof test);
+
+
+// let a = parseFloat (prompt( "enter first value"))
+// let b = parseFloat (prompt( "enter first value"))
+// let c = a === b
+
+// console.log (c)
+// alert (c)
+
+
+// EXERCISE
+
+// let a = -20
+// if ( a > 0 ) {
+//     console.log ( `${a} is a positive number`)
+// }
+// else { console.log (`${a} is a negative number`)}
+
+
+// let passmark = 40
+// if (passmark <=  35 ){
+//     console.log ( "pass")}
+//  else { console.log ("fail")}
+
+
+// let pass = parseInt(prompt("enter your score"))
+// if (pass >= 40 ){
+//     console.log ( "pass")}
+
+//  else { console.log ("fail")}
+
+
+// else if else
+
+let a = parseInt(prompt ( "enter a number"))
+if ( a > 0 ) {
+    console.log ( `${a} is a positive number`)
+}
+else if ( a === 0) {
+    console.log ( "invalid number")
+}
+else if ( isNaN(a)) { 
+    console.log ("not a Number") 
+}
+else { console.log (`${a} is a negative number`)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
