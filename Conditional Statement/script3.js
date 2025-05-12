@@ -317,24 +317,37 @@
 
 
 // 5.BMI
-let weight = parseFloat(prompt ( "Enter your weight"))
-let height = parseFloat(prompt ( "Enter your height"))
-let BMI = weight % ( height * height)
+// let weight = parseFloat(prompt ( "Enter your weight"))
+// let height = parseFloat(prompt ( "Enter your height"))
+// let BMI = weight % ( height * height)
 
-if (BMI < 18.5 ) {
-    alert ( "UNDERWEIGHT")
+// if (BMI < 18.5 ) {
+//     alert ( "UNDERWEIGHT")
+// }
+// else if ( BMI > 18.6 && BMI >= 24.9)
+// {  alert ( "HEALTHY")}
+// else if ( BMI >= 25 && BMI >= 29.9) {
+//     alert ("OVERWEIGHT")
+// }
+// else if (isNaN(BMI)) {
+//     alert ( `please enter a valid bmi`)
+// }
+// else {
+//     alert ("OBESE")
+// }
+
+
+// 6. guesing game
+let secretNumber = 10
+let guessNumber = parseInt (prompt (`guess the secret number`))
+
+if (secretNumber === guessNumber) {
+    alert("correct")
 }
-else if ( BMI > 18.6 && BMI >= 24.9)
-{  alert ( "HEALTHY")}
-else if ( BMI >= 25 && BMI >= 29.9) {
-    alert ("OVERWEIGHT")
+else if( guessNumber > secretNumber){
+    alert( "higher")
 }
-else if (isNaN(BMI)) {
-    alert ( `please enter a valid bmi`)
-}
-else {
-    alert ("OBESE")
-}
+else {alert ( `lower`)}
 
 
 
