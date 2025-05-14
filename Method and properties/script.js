@@ -61,16 +61,17 @@
 const name = [ 'ayo' , 'saka', 'bisi']
 name.splice (1 ,0, "biola")
 
-let slic = name.slice(1)
+// let slic = name.slice(1)
+
 
 
 // let myName = (name.concat(number))
 
 // console.log(myName)
-console.log (name)
+// console.log (name)
 
-console.log (slic)
-console.log (name)
+// console.log (slic)
+// console.log (name)
 
 // name [2] = "ola"
 // console.log (name)
@@ -79,7 +80,19 @@ console.log (name)
 // console.log(name)
 
 
-const number = [ 1,8,6,7,2,3,4,5]
+// const number = [ 1,8,6,7,2,3,4,5]
+// let num = number.indexOf (8)
+// console.log (num)
+ 
+
+// console.log ( number.indexOf (3))
+
+// console.log(number[3])
+// console.log(number[7])
+// console.log(number[0])
+
+
+
 
 // number.push( 9)
 // number.pop ()  
@@ -106,5 +119,37 @@ const number = [ 1,8,6,7,2,3,4,5]
 // console.log ( typeof number)
 
 // console.log ( number instanceof Array)
+
+
+
+// STRING METHOD
+
+let myName =`Fadipe Quadri Abiodun` 
+let age = 45
+console.log(myName)
+let length = (myName.length)
+console.log (length)
+// console.log(myName.length)
+console.log (myName.charAt(7))  
+console.log (myName.at(4))  
+console.log (myName[8])
+console.log( myName.slice(-7))
+console.log(myName.toUpperCase())
+console.log(myName.toLowerCase())
+console.log (myName.concat(" - " ,age))
+console.log(myName.trim())
+console.log(myName.repeat(2))
+console.log(myName.replace ("Abiodun" ," Adetayo"))
+console.log (myName.split())
+console.log(myName.indexOf( "p"))
+console.log(myName.includes("Quadri"))
+console.log (myName.startsWith("Fadipe"))
+console.log (myName.endsWith("Abiodun"))
+console.log (myName.startsWith( "Quadri" , 7))
+
+
+
+
+
 
 
