@@ -124,30 +124,66 @@ name.splice (1 ,0, "biola")
 
 // STRING METHOD
 
-let myName =`Fadipe Quadri Abiodun` 
-let age = 45
-console.log(myName)
-let length = (myName.length)
-console.log (length)
+// let myName =`Fadipe Quadri Abiodun` 
+// let age = 45
+// console.log(myName)
+// let length = (myName.length)
+// console.log (length)
 // console.log(myName.length)
-console.log (myName.charAt(7))  
-console.log (myName.at(4))  
-console.log (myName[8])
-console.log( myName.slice(-7))
-console.log(myName.toUpperCase())
-console.log(myName.toLowerCase())
-console.log (myName.concat(" - " ,age))
-console.log(myName.trim())
-console.log(myName.repeat(2))
-console.log(myName.replace ("Abiodun" ," Adetayo"))
-console.log (myName.split())
-console.log(myName.indexOf( "p"))
-console.log(myName.includes("Quadri"))
-console.log (myName.startsWith("Fadipe"))
-console.log (myName.endsWith("Abiodun"))
-console.log (myName.startsWith( "Quadri" , 7))
+// console.log (myName.charAt(7))  
+// console.log (myName.at(4))  
+// console.log (myName[8])
+// console.log( myName.slice(-7))
+// console.log(myName.toUpperCase())
+// console.log(myName.toLowerCase())
+// console.log (myName.concat(" - " ,age))
+// console.log(myName.trim())
+// console.log(myName.repeat(2))
+// console.log(myName.replace ("Abiodun" ," Adetayo"))
+// console.log (myName.split())
+// console.log(myName.indexOf( "p"))
+// console.log(myName.includes("Quadri"))
+// console.log (myName.startsWith("Fadipe"))
+// console.log (myName.endsWith("Abiodun"))
+// console.log (myName.startsWith( "Quadri" , 7))
 
 
+
+// NUMBER METHOD AND PROPERTIES
+// let x = 10.5722882282828
+// let y = "10.57678787"
+
+
+// // console.log(x + y)
+// // console.log ( x/y)
+
+// // console.log (x.toString())
+// // console.log (x)
+
+// console.log (x.toFixed(3))
+// console.log (parseFloat(y))
+// console.log (parseInt(y))
+
+
+// MATH METHOD
+// Syntax { Math.method(number)}
+let x = 10.5722882282828
+let y = 15.5
+let a = 5
+let b = 2
+
+// console.log (Math.round(x))
+// console.log ( Math.ceil(x))
+
+// console.log(Math.floor(x))
+// console.log(Math.floor(y))
+// console.log(Math.trunc(x))
+
+console.log(Math.pow(a,b))
+console.log(Math.sqrt(a))
+
+console.log (Math.min ( a ,b,x,y))
+console.log (Math.max ( a ,b,x,y))
 
 
 
