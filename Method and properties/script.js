@@ -58,8 +58,8 @@
 
 
 
-const name = [ 'ayo' , 'saka', 'bisi']
-name.splice (1 ,0, "biola")
+// const name = [ 'ayo' , 'saka', 'bisi']
+// name.splice (1 ,0, "biola")
 
 // let slic = name.slice(1)
 
@@ -179,11 +179,44 @@ let b = 2
 // console.log(Math.floor(y))
 // console.log(Math.trunc(x))
 
-console.log(Math.pow(a,b))
-console.log(Math.sqrt(a))
+// console.log(Math.pow(a,b))
+// console.log(Math.sqrt(a))
 
-console.log (Math.min ( a ,b,x,y))
-console.log (Math.max ( a ,b,x,y))
+// console.log (Math.min ( a ,b,x,y))
+// console.log (Math.max ( a ,b,x,y))
+
+// console.log (Math.random() * 10000)
+// console.log (Math.trunc(Math.random()  * 1000000))
+
+
+// OBJECT
+let user = {
+    name:"ade",
+    age :34,
+    gender: "male",
+    class: "jss1"
+}
+
+console.log (user)
+
+console.log (user.name)
+console.log (user.class)
+console.log (user.age)
+console.log (Object.keys(user))
+console.log (Object.values(user))
+
+
+
+let userr = {
+    firstName :"fadipe",
+    secondName :" abiodun",
+    thirdName :" quadri",
+}
+userr.nationality = "nigeria"
+// delete userr.secondName
+
+console.log (userr)
+
 
 
 
