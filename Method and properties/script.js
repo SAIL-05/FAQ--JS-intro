@@ -190,32 +190,32 @@ let b = 2
 
 
 // OBJECT
-let user = {
-    name:"ade",
-    age :34,
-    gender: "male",
-    class: "jss1"
-}
+// let user = {
+//     name:"ade",
+//     age :34,
+//     gender: "male",
+//     class: "jss1"
+// }
 
-console.log (user)
+// console.log (user)
 
-console.log (user.name)
-console.log (user.class)
-console.log (user.age)
-console.log (Object.keys(user))
-console.log (Object.values(user))
+// console.log (user.name)
+// console.log (user.class)
+// console.log (user.age)
+// console.log (Object.keys(user))
+// console.log (Object.values(user))
 
 
 
-let userr = {
-    firstName :"fadipe",
-    secondName :" abiodun",
-    thirdName :" quadri",
-}
-userr.nationality = "nigeria"
-// delete userr.secondName
+// let userr = {
+//     firstName :"fadipe",
+//     secondName :" abiodun",
+//     thirdName :" quadri",
+// }
+// userr.nationality = "nigeria"
+// // delete userr.secondName
 
-console.log (userr)
+// console.log (userr)
 
 
 
