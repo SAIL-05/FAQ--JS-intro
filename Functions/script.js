@@ -88,4 +88,4 @@ let totalScore = function ( a ,b) {
     console.log (c)
 }
 
-totalScore( 45,67)
+totalScore( 32,45)
