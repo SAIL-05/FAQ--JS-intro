@@ -99,12 +99,53 @@
 
 
 
-function maxWord() {
-    let word = ( "i will never give up on this course")
+// function maxWord() {
+//     let word = ( "i will never give up on this course")
 
-    console.log(word.split(" ").indexOf("this"))
-}
+//     console.log(word.split(" ").indexOf("this"))
+// }
 
-maxWord()
+// maxWord()
+
+
+//let ,const,and var
+// {
+//     let a = 10
+//     console.log(a)
+// }
+
+
+// {
+//     var b = 10
+// }
+// console.log(b)
+
+
+// {
+//     const c = 10
+// }
+// console.log(b)
+
+
+
+// for ( var  i = 1; i <= 10; i++){
+//     console.log(i)
+// }
+
+
+// let scores =  [ 20,30,40,50,60]
+
+// for ( var a = 1; a <=10;a++){
+// console.log (scores[a])
+// }
+
+
+for ( b = 0 ; b <= 15;b++)
+
+if(b % 2===0 ){
+    console.log ( `${b} is an even number`)
+} else { 
+    console.log(`${b} is an odd Number`)
+    }
 
 
