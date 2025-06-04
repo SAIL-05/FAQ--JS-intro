@@ -1,13 +1,12 @@
-console.log("apple")
+console.log("one")
 
 
  
 function caller(){
  setTimeout(() =>{ console.log("delay")}
-   ,5000
- )
+   ,5000)
 }
 caller()
 
 
-console.log("mango")
+console.log("two")
