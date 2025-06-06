@@ -15,14 +15,15 @@
 
 // console.log("two")
 
-async function user(name) {
+// ASYNC/AWAIT
 
-try{  name = await fetch("https://jsonplaceholder.typicode.com/posts")
-    let nameOne = await name.json();
-    console.log(nameOne)
+async function user(post) {
+
+try{  post = await fetch("https://jsonplaceholder.typicode.com/posts")
+    let postresult = await post.json();
+    console.log(postresult)
 }
 catch {console.error(err)};
   
 }
 user()
-
