@@ -1,0 +1,30 @@
+ "person" : {
+    "name" : "ade",
+    "age" : "12",
+    "class" : "ss1"
+},
+
+ { "students" : [
+    {
+ "name" : "ade",
+    "age" : 12,
+    "class" : "ss"
+},
+{
+ "name" : "sade",
+    "age" : 13,
+    "class" : "ss"
+},
+{
+ "name" : "yinka",
+    "age" : 10,
+    "class" : "ss"
+}
+]} 
+
+
+{"employees":[
+  { "firstName":"John", "lastName":"Doe" },
+  { "firstName":"Anna", "lastName":"Smith" },
+  { "firstName":"Peter", "lastName":"Jones" }
+]}
