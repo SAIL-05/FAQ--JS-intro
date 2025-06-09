@@ -2,13 +2,13 @@
 
 //1.
 
-// function user(){
-//      let input = document.getElementById (`UserName`).value
-//     // document.getElementById (`inputdata`).innerText = input
-//    let userlist = document.createElement ("li")
-//    userlist.textContent = input
-//    document.getElementById(`inputdata`).appendChild(userlist)
-// }
+function user(){
+     let input = document.getElementById (`UserName`).value
+    // document.getElementById (`inputdata`).innerText = input
+   let userlist = document.createElement ("li")
+   userlist.textContent = input
+   document.getElementById(`inputdata`).appendChild(userlist)
+}
 
 //2.
 
