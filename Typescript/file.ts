@@ -54,8 +54,8 @@ let myclass:any = "ade"
 
 function minNumber() : number {
     let num1 = 23
-    let num2 = 23
-    let num3 = 23
+    let num2 = 45
+    let num3 = 90
     
 return (Math.min(num1,num2,num3))
 }
