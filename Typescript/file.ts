@@ -50,7 +50,7 @@ let mypassword: string | number = "qrqrqrqr"
 // maxnumber();
 
 
-let myclass:any = 45
+let myclass:any = "ade"
 
 function minNumber() : number {
     let num1 = 23
